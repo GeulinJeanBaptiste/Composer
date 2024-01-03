@@ -10,3 +10,7 @@ Installer une librairie, un paquet:
 Supprimer une librairie, un paquet: 
 
 ` composer remove ramsey/uuid `
+
+Mettre à jour une librairie , un paquet :
+
+` composer update vendor/nom_paquet `

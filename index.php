@@ -29,6 +29,10 @@ $faker->text() . '<br>';
         color: <?= RandomColor::one() ?>;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     body {
         background-color: whitesmoke;
     }
@@ -36,7 +40,7 @@ $faker->text() . '<br>';
     .card {
         display: flex;
         flex-wrap: wrap;
-        margin: 0.2rem;
+        margin: 0.5rem;
     }
 
     .card article {
